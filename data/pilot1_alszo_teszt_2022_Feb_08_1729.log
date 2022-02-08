@@ -1,0 +1,46 @@
+0.9549 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.0962 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000005B8BBB3160>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000005B8BB846A0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.0965 	EXP 	window1: mouseVisible = True
+14.0965 	EXP 	window1: recordFrameIntervals = False
+14.2624 	EXP 	window1: recordFrameIntervals = True
+14.4460 	EXP 	window1: recordFrameIntervals = False
+14.7260 	EXP 	Created inst_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='inst_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7404 	EXP 	Created space_inst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='space_inst', opacity=1, ori=0.0, pos=array([ 0.  , -0.38]), rgb=UNKNOWN, text='A kezdéshez nyomja meg a SPACE gombot!', units='height', win=Window(...), wrapWidth=1)
+14.7631 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Készüljön, a kísérlet hamarosan elindul!', units='height', win=Window(...), wrapWidth=1)
+14.7682 	EXP 	Created fx_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fx_cross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.7844 	EXP 	Sound sound_1 set volume 1.000
+14.8028 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ismételje el a hallott szót!', units='height', win=Window(...), wrapWidth=1)
+14.8221 	EXP 	Created kosznojuk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='kosznojuk', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8633 	EXP 	inst_text: autoDraw = True
+22.8312 	EXP 	space_inst: autoDraw = True
+23.2996 	DATA 	Keypress: space
+23.3133 	EXP 	inst_text: autoDraw = False
+23.3133 	EXP 	space_inst: autoDraw = False
+23.3133 	EXP 	text: autoDraw = True
+29.3139 	EXP 	Imported stimuli\\hangok_stim.xlsx as conditions, 19 conditions, 2 params
+29.3151 	EXP 	Created sequence: sequential, trialTypes=19, nReps=1, seed=None
+29.3158 	EXP 	New trial (rep=0, index=0): {'szo': 'gyilonitora', 'hangfajl': 'alszo_18'}
+29.3312 	EXP 	text: autoDraw = False
+29.3312 	EXP 	fx_cross: autoDraw = True
+30.3331 	EXP 	fx_cross: autoDraw = False
+33.3120 	EXP 	text_2: autoDraw = True
+37.5691 	DATA 	Keypress: u
+37.5874 	EXP 	New trial (rep=0, index=1): {'szo': 'tesilbengecsék', 'hangfajl': 'alszo_19'}
+37.6051 	EXP 	text_2: autoDraw = False
+37.6051 	EXP 	fx_cross: autoDraw = True
+38.6284 	EXP 	fx_cross: autoDraw = False
+41.6139 	EXP 	text_2: autoDraw = True
+46.9022 	EXP 	New trial (rep=0, index=2): {'szo': 'fortiklempelsz', 'hangfajl': 'alszo_20'}
+46.9073 	DATA 	Keypress: u
+46.9206 	EXP 	text_2: autoDraw = False
+46.9206 	EXP 	fx_cross: autoDraw = True
+47.9347 	EXP 	fx_cross: autoDraw = False
+50.9129 	EXP 	text_2: autoDraw = True
+69.2151 	DATA 	Keypress: u
+69.2397 	EXP 	New trial (rep=0, index=3): {'szo': 'abalamofálsag', 'hangfajl': 'alszo_21'}
+69.2577 	EXP 	text_2: autoDraw = False
+69.2577 	EXP 	fx_cross: autoDraw = True
+70.2888 	EXP 	fx_cross: autoDraw = False
+73.2783 	EXP 	text_2: autoDraw = True
+79.3097 	DATA 	Keypress: escape
+79.5076 	EXP 	window1: mouseVisible = True
