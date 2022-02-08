@@ -2,7 +2,7 @@
 <PsychoPy2experiment encoding="utf-8" version="2021.1.2">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
-    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="pygame" valType="str"/>
     <Param name="Completed URL" updates="None" val="" valType="str"/>
     <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
     <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['Résztvevő kódja'], expName, expInfo['date'])" valType="code"/>
@@ -53,7 +53,7 @@
       </CodeComponent>
       <SoundComponent name="sound_1">
         <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="1" valType="num"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="hamming" updates="constant" val="True" valType="bool"/>
         <Param name="name" updates="None" val="sound_1" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
@@ -62,7 +62,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="num"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="stopVal" updates="constant" val="3" valType="num"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="num"/>
       </SoundComponent>
@@ -284,7 +284,7 @@
     <Routine name="instr"/>
     <Routine name="begin"/>
     <LoopInitiator loopType="TrialHandler" name="hangok">
-      <Param name="Selected rows" updates="None" val="0:3" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'szo': 'gáv', 'hangfajl': 'alszo_01'}, {'szo': 'gyem', 'hangfajl': 'alszo_02'}, {'szo': 'Szan', 'hangfajl': 'alszo_03'}, {'szo': 'dolk', 'hangfajl': 'alszo_04'}, {'szo': 'zomás', 'hangfajl': 'alszo_05'}, {'szo': 'galonc', 'hangfajl': 'alszo_06'}, {'szo': 'Gabam', 'hangfajl': 'alszo_07'}, {'szo': 'ardul', 'hangfajl': 'alszo_08'}, {'szo': 'tarembik', 'hangfajl': 'alszo_09'}, {'szo': 'cselika', 'hangfajl': 'alszo_10'}, {'szo': 'hübedin', 'hangfajl': 'alszo_11'}, {'szo': 'vazóga', 'hangfajl': 'alszo_12'}, {'szo': 'tipebanér', 'hangfajl': 'alszo_13'}, {'szo': 'limefürék', 'hangfajl': 'alszo_14'}, {'szo': 'serkápanta', 'hangfajl': 'alszo_15'}, {'szo': 'berszidelén', 'hangfajl': 'alszo_16'}, {'szo': 'hápamarogány', 'hangfajl': 'alszo_17'}, {'szo': 'gyilonitora', 'hangfajl': 'alszo_18'}, {'szo': 'tesilbengecsék', 'hangfajl': 'alszo_19'}, {'szo': 'fortiklempelsz', 'hangfajl': 'alszo_20'}, {'szo': 'abalamofálsag', 'hangfajl': 'alszo_21'}, {'szo': 'sémernyegvőterec', 'hangfajl': 'alszo_22'}, {'szo': 'hulukatánatalm', 'hangfajl': 'alszo_23'}, {'szo': 'innécsésziderszil', 'hangfajl': 'alszo_24'}, {'szo': 'dögeliztetmereni', 'hangfajl': 'alszo_25'}, {'szo': 'kusztenirselemenég', 'hangfajl': 'alszo_26'}, {'szo': 'intogszocolarásu', 'hangfajl': 'alszo_27'}, {'szo': 'töminégeveltemérg', 'hangfajl': 'alszo_28'}, {'szo': 'igyótanumazálubirc', 'hangfajl': 'alszo_29'}, {'szo': 'polankilimapszilógis', 'hangfajl': 'alszo_30'}, {'szo': 'elüsekéketésenim', 'hangfajl': 'alszo_31'}, {'szo': 'réfjenólpáulatamú', 'hangfajl': 'alszo_32'}, {'szo': 'vanatyfovagyatázólarka', 'hangfajl': 'alszo_33'}, {'szo': 'ladatobanrapolsazridant', 'hangfajl': 'alszo_34'}, {'szo': 'ninolamebefalintelék', 'hangfajl': 'alszo_35'}, {'szo': 'szikunblómitílaradiga', 'hangfajl': 'alszo_36'}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="stimuli\hangok_stim.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
