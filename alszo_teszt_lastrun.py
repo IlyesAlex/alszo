@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.1.2),
-    on február 08, 2022, at 14:24
+    on április 27, 2022, at 17:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -15,6 +15,7 @@ from __future__ import absolute_import, division
 
 from psychopy import locale_setup
 from psychopy import prefs
+prefs.hardware['audioLib'] = 'pygame'
 from psychopy import sound, gui, visual, core, data, event, logging, clock, colors
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
@@ -37,7 +38,7 @@ os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '2021.1.2'
 expName = 'alszo_teszt'  # from the Builder filename that created this script
-expInfo = {'Résztvevő kódja': '', 'Nem': ''}
+expInfo = {'Résztvevő kódja': ''}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
@@ -51,7 +52,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['Résztvevő kódja']
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\_ALEX_\\_PhD\\kutatás\\szópár_ps\\_kísérlet_main\\covariates\\Álszó\\alszo_test\\alszo\\alszo_teszt_lastrun.py',
+    originPath='D:\\Users\\USER\\Desktop\\Tezaurusz\\alszo\\alszo\\alszo_teszt_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -120,7 +121,7 @@ fx_cross = visual.TextStim(win=win, name='fx_cross',
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
-sound_1 = sound.Sound('A', secs=-1, stereo=True, hamming=True,
+sound_1 = sound.Sound('A', secs=-1.0, stereo=True, hamming=True,
     name='sound_1')
 sound_1.setVolume(1.0)
 key_resp_2 = keyboard.Keyboard()
@@ -141,6 +142,7 @@ kosznojuk = visual.TextStim(win=win, name='kosznojuk',
     color='black', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
+key_resp_3 = keyboard.Keyboard()
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -325,7 +327,7 @@ thisExp.addData('text.stopped', text.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 hangok = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('stimuli\\\\hangok_stim.xlsx', selection='0:3'),
+    trialList=data.importConditions('stimuli\\\\hangok_stim.xlsx'),
     seed=None, name='hangok')
 thisExp.addLoop(hangok)  # add the loop to the experiment
 thisHangok = hangok.trialList[0]  # so we can initialise stimuli with some values
@@ -414,7 +416,7 @@ for thisHangok in hangok:
     continueRoutine = True
     # update component parameters for each repeat
     sound_file = "stimuli/hangfajlok/" + str(hangfajl) + ".wav"
-    sound_1.setSound(sound_file, hamming=True)
+    sound_1.setSound(sound_file, secs=3.0, hamming=True)
     sound_1.setVolume(1.0, log=False)
     key_resp_2.keys = []
     key_resp_2.rt = []
@@ -449,6 +451,14 @@ for thisHangok in hangok:
             sound_1.tStart = t  # local t and not account for scr refresh
             sound_1.tStartRefresh = tThisFlipGlobal  # on global time
             sound_1.play(when=win)  # sync with win flip
+        if sound_1.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > sound_1.tStartRefresh + 3.0-frameTolerance:
+                # keep track of stop time/frame for later
+                sound_1.tStop = t  # not accounting for scr refresh
+                sound_1.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(sound_1, 'tStopRefresh')  # time at next scr refresh
+                sound_1.stop()
         
         # *key_resp_2* updates
         waitOnFlip = False
@@ -525,8 +535,11 @@ for thisHangok in hangok:
 # ------Prepare to start Routine "vege"-------
 continueRoutine = True
 # update component parameters for each repeat
+key_resp_3.keys = []
+key_resp_3.rt = []
+_key_resp_3_allKeys = []
 # keep track of which components have finished
-vegeComponents = [kosznojuk]
+vegeComponents = [kosznojuk, key_resp_3]
 for thisComponent in vegeComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -558,6 +571,28 @@ while continueRoutine:
         win.timeOnFlip(kosznojuk, 'tStartRefresh')  # time at next scr refresh
         kosznojuk.setAutoDraw(True)
     
+    # *key_resp_3* updates
+    waitOnFlip = False
+    if key_resp_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        key_resp_3.frameNStart = frameN  # exact frame index
+        key_resp_3.tStart = t  # local t and not account for scr refresh
+        key_resp_3.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_resp_3, 'tStartRefresh')  # time at next scr refresh
+        key_resp_3.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_resp_3.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_resp_3.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_resp_3.status == STARTED and not waitOnFlip:
+        theseKeys = key_resp_3.getKeys(keyList=['space'], waitRelease=False)
+        _key_resp_3_allKeys.extend(theseKeys)
+        if len(_key_resp_3_allKeys):
+            key_resp_3.keys = _key_resp_3_allKeys[-1].name  # just the last key pressed
+            key_resp_3.rt = _key_resp_3_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
+    
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
         core.quit()
@@ -581,6 +616,15 @@ for thisComponent in vegeComponents:
         thisComponent.setAutoDraw(False)
 thisExp.addData('kosznojuk.started', kosznojuk.tStartRefresh)
 thisExp.addData('kosznojuk.stopped', kosznojuk.tStopRefresh)
+# check responses
+if key_resp_3.keys in ['', [], None]:  # No response was made
+    key_resp_3.keys = None
+thisExp.addData('key_resp_3.keys',key_resp_3.keys)
+if key_resp_3.keys != None:  # we had a response
+    thisExp.addData('key_resp_3.rt', key_resp_3.rt)
+thisExp.addData('key_resp_3.started', key_resp_3.tStartRefresh)
+thisExp.addData('key_resp_3.stopped', key_resp_3.tStopRefresh)
+thisExp.nextEntry()
 # the Routine "vege" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 

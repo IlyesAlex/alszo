@@ -1,0 +1,344 @@
+0.9984 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pygame'] (in that order).
+79.8555 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000001768E85F28>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000001768EA26A0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+79.8556 	EXP 	window1: mouseVisible = True
+79.8557 	EXP 	window1: recordFrameIntervals = False
+80.0225 	EXP 	window1: recordFrameIntervals = True
+80.2063 	EXP 	window1: recordFrameIntervals = False
+80.5039 	EXP 	Created inst_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='inst_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+80.5190 	EXP 	Created space_inst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='space_inst', opacity=1, ori=0.0, pos=array([ 0.  , -0.38]), rgb=UNKNOWN, text='A kezdéshez nyomja meg a SPACE gombot!', units='height', win=Window(...), wrapWidth=1)
+80.5450 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Készüljön, a kísérlet hamarosan elindul!', units='height', win=Window(...), wrapWidth=1)
+80.5507 	EXP 	Created fx_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fx_cross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+80.8020 	WARNING 	Hamming was requested using the 'pygame' sound library but hamming is not supported there.
+80.8489 	EXP 	Set sound_1 sound=A
+80.8490 	EXP 	Set Sound sound_1 volume=1.000
+80.8676 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ismételje el a hallott szót!', units='height', win=Window(...), wrapWidth=1)
+80.8881 	EXP 	Created kosznojuk = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='kosznojuk', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+80.9267 	EXP 	inst_text: autoDraw = True
+88.8977 	EXP 	space_inst: autoDraw = True
+95.2817 	DATA 	Keypress: space
+95.2955 	EXP 	inst_text: autoDraw = False
+95.2955 	EXP 	space_inst: autoDraw = False
+95.2955 	EXP 	text: autoDraw = True
+101.3146 	EXP 	Imported stimuli\\hangok_stim.xlsx as conditions, 36 conditions, 2 params
+101.3155 	EXP 	Created sequence: sequential, trialTypes=36, nReps=1, seed=None
+101.3162 	EXP 	New trial (rep=0, index=0): {'szo': 'gáv', 'hangfajl': 'alszo_01'}
+101.3366 	EXP 	text: autoDraw = False
+101.3366 	EXP 	fx_cross: autoDraw = True
+102.2909 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_01.wav
+102.2910 	EXP 	Sound sound_1 started
+102.3039 	EXP 	fx_cross: autoDraw = False
+105.2802 	EXP 	Sound sound_1 stopped
+105.2982 	EXP 	text_2: autoDraw = True
+110.5907 	EXP 	Sound sound_1 stopped
+110.5937 	EXP 	New trial (rep=0, index=1): {'szo': 'gyem', 'hangfajl': 'alszo_02'}
+110.5982 	DATA 	Keypress: u
+110.6142 	EXP 	text_2: autoDraw = False
+110.6142 	EXP 	fx_cross: autoDraw = True
+111.6138 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_02.wav
+111.6140 	EXP 	Sound sound_1 started
+111.6272 	EXP 	fx_cross: autoDraw = False
+114.5995 	EXP 	text_2: autoDraw = True
+114.6174 	EXP 	Sound sound_1 stopped
+116.6953 	EXP 	Sound sound_1 stopped
+116.6973 	EXP 	New trial (rep=0, index=2): {'szo': 'Szan', 'hangfajl': 'alszo_03'}
+116.7024 	DATA 	Keypress: u
+116.7139 	EXP 	text_2: autoDraw = False
+116.7139 	EXP 	fx_cross: autoDraw = True
+117.7131 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_03.wav
+117.7133 	EXP 	Sound sound_1 started
+117.7334 	EXP 	fx_cross: autoDraw = False
+120.7151 	EXP 	text_2: autoDraw = True
+120.7153 	EXP 	Sound sound_1 stopped
+121.7043 	EXP 	Sound sound_1 stopped
+121.7063 	EXP 	New trial (rep=0, index=3): {'szo': 'dolk', 'hangfajl': 'alszo_04'}
+121.7107 	DATA 	Keypress: u
+121.7236 	EXP 	text_2: autoDraw = False
+121.7236 	EXP 	fx_cross: autoDraw = True
+122.7269 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_04.wav
+122.7271 	EXP 	Sound sound_1 started
+122.7403 	EXP 	fx_cross: autoDraw = False
+125.7134 	EXP 	Sound sound_1 stopped
+125.7318 	EXP 	text_2: autoDraw = True
+126.8049 	EXP 	Sound sound_1 stopped
+126.8069 	EXP 	New trial (rep=0, index=4): {'szo': 'zomás', 'hangfajl': 'alszo_05'}
+126.8114 	DATA 	Keypress: u
+126.8244 	EXP 	text_2: autoDraw = False
+126.8244 	EXP 	fx_cross: autoDraw = True
+127.8363 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_05.wav
+127.8365 	EXP 	Sound sound_1 started
+127.8546 	EXP 	fx_cross: autoDraw = False
+130.8339 	EXP 	text_2: autoDraw = True
+130.8340 	EXP 	Sound sound_1 stopped
+132.7261 	EXP 	Sound sound_1 stopped
+132.7281 	EXP 	New trial (rep=0, index=5): {'szo': 'galonc', 'hangfajl': 'alszo_06'}
+132.7326 	DATA 	Keypress: u
+132.7459 	EXP 	text_2: autoDraw = False
+132.7459 	EXP 	fx_cross: autoDraw = True
+133.7330 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_06.wav
+133.7332 	EXP 	Sound sound_1 started
+133.7472 	EXP 	fx_cross: autoDraw = False
+136.7307 	EXP 	text_2: autoDraw = True
+136.7308 	EXP 	Sound sound_1 stopped
+137.5871 	EXP 	Sound sound_1 stopped
+137.5891 	EXP 	New trial (rep=0, index=6): {'szo': 'Gabam', 'hangfajl': 'alszo_07'}
+137.5936 	DATA 	Keypress: u
+137.6068 	EXP 	text_2: autoDraw = False
+137.6068 	EXP 	fx_cross: autoDraw = True
+138.6100 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_07.wav
+138.6102 	EXP 	Sound sound_1 started
+138.6233 	EXP 	fx_cross: autoDraw = False
+141.5968 	EXP 	Sound sound_1 stopped
+141.6146 	EXP 	text_2: autoDraw = True
+142.2073 	EXP 	Sound sound_1 stopped
+142.2093 	EXP 	New trial (rep=0, index=7): {'szo': 'ardul', 'hangfajl': 'alszo_08'}
+142.2138 	DATA 	Keypress: u
+142.2270 	EXP 	text_2: autoDraw = False
+142.2270 	EXP 	fx_cross: autoDraw = True
+143.2160 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_08.wav
+143.2162 	EXP 	Sound sound_1 started
+143.2297 	EXP 	fx_cross: autoDraw = False
+146.2154 	EXP 	text_2: autoDraw = True
+146.2155 	EXP 	Sound sound_1 stopped
+147.1989 	EXP 	Sound sound_1 stopped
+147.2010 	EXP 	New trial (rep=0, index=8): {'szo': 'tarembik', 'hangfajl': 'alszo_09'}
+147.2055 	DATA 	Keypress: u
+147.2171 	EXP 	text_2: autoDraw = False
+147.2171 	EXP 	fx_cross: autoDraw = True
+148.2390 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_09.wav
+148.2392 	EXP 	Sound sound_1 started
+148.2580 	EXP 	fx_cross: autoDraw = False
+151.2324 	EXP 	text_2: autoDraw = True
+151.2326 	EXP 	Sound sound_1 stopped
+152.3923 	EXP 	Sound sound_1 stopped
+152.3943 	EXP 	New trial (rep=0, index=9): {'szo': 'cselika', 'hangfajl': 'alszo_10'}
+152.3989 	DATA 	Keypress: u
+152.4121 	EXP 	text_2: autoDraw = False
+152.4121 	EXP 	fx_cross: autoDraw = True
+153.4073 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_10.wav
+153.4075 	EXP 	Sound sound_1 started
+153.4202 	EXP 	fx_cross: autoDraw = False
+156.4001 	EXP 	Sound sound_1 stopped
+156.4177 	EXP 	text_2: autoDraw = True
+157.4334 	EXP 	Sound sound_1 stopped
+157.4360 	EXP 	New trial (rep=0, index=10): {'szo': 'hübedin', 'hangfajl': 'alszo_11'}
+157.4410 	DATA 	Keypress: u
+157.4529 	EXP 	text_2: autoDraw = False
+157.4529 	EXP 	fx_cross: autoDraw = True
+158.4678 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_11.wav
+158.4680 	EXP 	Sound sound_1 started
+158.4833 	EXP 	fx_cross: autoDraw = False
+161.4642 	EXP 	text_2: autoDraw = True
+161.4820 	EXP 	Sound sound_1 stopped
+162.3708 	EXP 	Sound sound_1 stopped
+162.3728 	EXP 	New trial (rep=0, index=11): {'szo': 'vazóga', 'hangfajl': 'alszo_12'}
+162.3773 	DATA 	Keypress: u
+162.3905 	EXP 	text_2: autoDraw = False
+162.3905 	EXP 	fx_cross: autoDraw = True
+163.3933 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_12.wav
+163.3935 	EXP 	Sound sound_1 started
+163.4085 	EXP 	fx_cross: autoDraw = False
+166.3945 	EXP 	text_2: autoDraw = True
+166.3947 	EXP 	Sound sound_1 stopped
+167.8340 	EXP 	Sound sound_1 stopped
+167.8354 	EXP 	New trial (rep=0, index=12): {'szo': 'tipebanér', 'hangfajl': 'alszo_13'}
+167.8382 	DATA 	Keypress: u
+167.8491 	EXP 	text_2: autoDraw = False
+167.8491 	EXP 	fx_cross: autoDraw = True
+168.8451 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_13.wav
+168.8452 	EXP 	Sound sound_1 started
+168.8604 	EXP 	fx_cross: autoDraw = False
+171.8473 	EXP 	text_2: autoDraw = True
+171.8475 	EXP 	Sound sound_1 stopped
+173.3478 	DATA 	Keypress: u
+173.3650 	EXP 	Sound sound_1 stopped
+173.3671 	EXP 	New trial (rep=0, index=13): {'szo': 'limefürék', 'hangfajl': 'alszo_14'}
+173.3836 	EXP 	text_2: autoDraw = False
+173.3836 	EXP 	fx_cross: autoDraw = True
+174.3878 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_14.wav
+174.3880 	EXP 	Sound sound_1 started
+174.4005 	EXP 	fx_cross: autoDraw = False
+177.3811 	EXP 	text_2: autoDraw = True
+177.3812 	EXP 	Sound sound_1 stopped
+179.0017 	EXP 	Sound sound_1 stopped
+179.0031 	EXP 	New trial (rep=0, index=14): {'szo': 'serkápanta', 'hangfajl': 'alszo_15'}
+179.0063 	DATA 	Keypress: u
+179.0174 	EXP 	text_2: autoDraw = False
+179.0174 	EXP 	fx_cross: autoDraw = True
+180.0279 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_15.wav
+180.0280 	EXP 	Sound sound_1 started
+180.0443 	EXP 	fx_cross: autoDraw = False
+183.0227 	EXP 	text_2: autoDraw = True
+183.0418 	EXP 	Sound sound_1 stopped
+184.3597 	EXP 	Sound sound_1 stopped
+184.3617 	EXP 	New trial (rep=0, index=15): {'szo': 'berszidelén', 'hangfajl': 'alszo_16'}
+184.3665 	DATA 	Keypress: u
+184.3794 	EXP 	text_2: autoDraw = False
+184.3794 	EXP 	fx_cross: autoDraw = True
+185.3717 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_16.wav
+185.3718 	EXP 	Sound sound_1 started
+185.3867 	EXP 	fx_cross: autoDraw = False
+188.3782 	EXP 	text_2: autoDraw = True
+188.3784 	EXP 	Sound sound_1 stopped
+189.9400 	EXP 	Sound sound_1 stopped
+189.9419 	EXP 	New trial (rep=0, index=16): {'szo': 'hápamarogány', 'hangfajl': 'alszo_17'}
+189.9465 	DATA 	Keypress: u
+189.9634 	EXP 	text_2: autoDraw = False
+189.9634 	EXP 	fx_cross: autoDraw = True
+190.9683 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_17.wav
+190.9686 	EXP 	Sound sound_1 started
+190.9869 	EXP 	fx_cross: autoDraw = False
+193.9636 	EXP 	Sound sound_1 stopped
+193.9821 	EXP 	text_2: autoDraw = True
+195.2759 	EXP 	Sound sound_1 stopped
+195.2779 	EXP 	New trial (rep=0, index=17): {'szo': 'gyilonitora', 'hangfajl': 'alszo_18'}
+195.2824 	DATA 	Keypress: u
+195.3003 	EXP 	text_2: autoDraw = False
+195.3003 	EXP 	fx_cross: autoDraw = True
+196.2943 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_18.wav
+196.2944 	EXP 	Sound sound_1 started
+196.3086 	EXP 	fx_cross: autoDraw = False
+199.2807 	EXP 	Sound sound_1 stopped
+199.2984 	EXP 	text_2: autoDraw = True
+200.2229 	EXP 	Sound sound_1 stopped
+200.2249 	EXP 	New trial (rep=0, index=18): {'szo': 'tesilbengecsék', 'hangfajl': 'alszo_19'}
+200.2294 	DATA 	Keypress: u
+200.2425 	EXP 	text_2: autoDraw = False
+200.2425 	EXP 	fx_cross: autoDraw = True
+201.2464 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_19.wav
+201.2465 	EXP 	Sound sound_1 started
+201.2638 	EXP 	fx_cross: autoDraw = False
+204.2470 	EXP 	text_2: autoDraw = True
+204.2471 	EXP 	Sound sound_1 stopped
+206.4477 	DATA 	Keypress: u
+206.4648 	EXP 	Sound sound_1 stopped
+206.4670 	EXP 	New trial (rep=0, index=19): {'szo': 'fortiklempelesz', 'hangfajl': 'alszo_20'}
+206.4860 	EXP 	text_2: autoDraw = False
+206.4860 	EXP 	fx_cross: autoDraw = True
+207.5006 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_20.wav
+207.5008 	EXP 	Sound sound_1 started
+207.5137 	EXP 	fx_cross: autoDraw = False
+210.4983 	EXP 	text_2: autoDraw = True
+210.4984 	EXP 	Sound sound_1 stopped
+212.5478 	DATA 	Keypress: u
+212.5651 	EXP 	Sound sound_1 stopped
+212.5673 	EXP 	New trial (rep=0, index=20): {'szo': 'abalamofálsag', 'hangfajl': 'alszo_21'}
+212.5885 	EXP 	text_2: autoDraw = False
+212.5885 	EXP 	fx_cross: autoDraw = True
+213.5886 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_21.wav
+213.5887 	EXP 	Sound sound_1 started
+213.6016 	EXP 	fx_cross: autoDraw = False
+216.5956 	EXP 	text_2: autoDraw = True
+216.5958 	EXP 	Sound sound_1 stopped
+218.3509 	EXP 	Sound sound_1 stopped
+218.3531 	EXP 	New trial (rep=0, index=21): {'szo': 'sémernyegvőterec', 'hangfajl': 'alszo_22'}
+218.3573 	DATA 	Keypress: u
+218.3682 	EXP 	text_2: autoDraw = False
+218.3682 	EXP 	fx_cross: autoDraw = True
+219.3803 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_22.wav
+219.3805 	EXP 	Sound sound_1 started
+219.3931 	EXP 	fx_cross: autoDraw = False
+222.3797 	EXP 	text_2: autoDraw = True
+222.3799 	EXP 	Sound sound_1 stopped
+225.6198 	EXP 	Sound sound_1 stopped
+225.6211 	EXP 	New trial (rep=0, index=22): {'szo': 'hulukatánatalm', 'hangfajl': 'alszo_23'}
+225.6245 	DATA 	Keypress: u
+225.6355 	EXP 	text_2: autoDraw = False
+225.6355 	EXP 	fx_cross: autoDraw = True
+226.6258 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_23.wav
+226.6259 	EXP 	Sound sound_1 started
+226.6411 	EXP 	fx_cross: autoDraw = False
+226.6411 	EXP 	fx_cross: autoDraw = False
+229.6289 	EXP 	text_2: autoDraw = True
+229.6291 	EXP 	Sound sound_1 stopped
+233.5237 	EXP 	Sound sound_1 stopped
+233.5250 	EXP 	New trial (rep=0, index=23): {'szo': 'innécsésziderszil', 'hangfajl': 'alszo_24'}
+233.5284 	DATA 	Keypress: u
+233.5414 	EXP 	text_2: autoDraw = False
+233.5414 	EXP 	fx_cross: autoDraw = True
+234.5580 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_24.wav
+234.5581 	EXP 	Sound sound_1 started
+234.5715 	EXP 	fx_cross: autoDraw = False
+237.5469 	EXP 	text_2: autoDraw = True
+237.5640 	EXP 	Sound sound_1 stopped
+240.7165 	EXP 	Sound sound_1 stopped
+240.7188 	EXP 	New trial (rep=0, index=24): {'szo': 'dögeliztetmereni', 'hangfajl': 'alszo_25'}
+240.7229 	DATA 	Keypress: u
+240.7375 	EXP 	text_2: autoDraw = False
+240.7375 	EXP 	fx_cross: autoDraw = True
+241.7378 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_25.wav
+241.7380 	EXP 	Sound sound_1 started
+241.7531 	EXP 	fx_cross: autoDraw = False
+244.7295 	EXP 	text_2: autoDraw = True
+244.7475 	EXP 	Sound sound_1 stopped
+246.5921 	DATA 	Keypress: u
+246.6095 	EXP 	Sound sound_1 stopped
+246.6115 	EXP 	New trial (rep=0, index=25): {'szo': 'kusztenirselemenég', 'hangfajl': 'alszo_26'}
+246.6328 	EXP 	text_2: autoDraw = False
+246.6328 	EXP 	fx_cross: autoDraw = True
+247.6261 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_26.wav
+247.6263 	EXP 	Sound sound_1 started
+247.6416 	EXP 	fx_cross: autoDraw = False
+250.6139 	EXP 	Sound sound_1 stopped
+250.6315 	EXP 	text_2: autoDraw = True
+253.1482 	EXP 	Sound sound_1 stopped
+253.1496 	EXP 	New trial (rep=0, index=26): {'szo': 'intogszocolarásu', 'hangfajl': 'alszo_27'}
+253.1530 	DATA 	Keypress: u
+253.1664 	EXP 	text_2: autoDraw = False
+253.1664 	EXP 	fx_cross: autoDraw = True
+254.1822 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_27.wav
+254.1824 	EXP 	Sound sound_1 started
+254.2028 	EXP 	fx_cross: autoDraw = False
+257.1803 	EXP 	text_2: autoDraw = True
+257.1804 	EXP 	Sound sound_1 stopped
+260.8226 	EXP 	Sound sound_1 stopped
+260.8246 	EXP 	New trial (rep=0, index=27): {'szo': 'töminégeveltemérg', 'hangfajl': 'alszo_28'}
+260.8292 	DATA 	Keypress: u
+260.8448 	EXP 	text_2: autoDraw = False
+260.8448 	EXP 	fx_cross: autoDraw = True
+261.8478 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_28.wav
+261.8480 	EXP 	Sound sound_1 started
+261.8606 	EXP 	fx_cross: autoDraw = False
+264.8463 	EXP 	text_2: autoDraw = True
+264.8465 	EXP 	Sound sound_1 stopped
+268.5645 	EXP 	Sound sound_1 stopped
+268.5667 	EXP 	New trial (rep=0, index=28): {'szo': 'igyótanumazálubirc', 'hangfajl': 'alszo_29'}
+268.5710 	DATA 	Keypress: u
+268.5822 	EXP 	text_2: autoDraw = False
+268.5822 	EXP 	fx_cross: autoDraw = True
+269.5892 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_29.wav
+269.5895 	EXP 	Sound sound_1 started
+269.6026 	EXP 	fx_cross: autoDraw = False
+272.5806 	EXP 	text_2: autoDraw = True
+272.5982 	EXP 	Sound sound_1 stopped
+275.4828 	EXP 	Sound sound_1 stopped
+275.4843 	EXP 	New trial (rep=0, index=29): {'szo': 'polankilimapszilógis', 'hangfajl': 'alszo_30'}
+275.4870 	DATA 	Keypress: u
+275.4980 	EXP 	text_2: autoDraw = False
+275.4980 	EXP 	fx_cross: autoDraw = True
+276.5142 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_30.wav
+276.5143 	EXP 	Sound sound_1 started
+276.5295 	EXP 	fx_cross: autoDraw = False
+279.5128 	EXP 	text_2: autoDraw = True
+279.5130 	EXP 	Sound sound_1 stopped
+282.9566 	EXP 	Sound sound_1 stopped
+282.9585 	EXP 	New trial (rep=0, index=30): {'szo': 'elüsekéketésenim', 'hangfajl': 'alszo_31'}
+282.9631 	DATA 	Keypress: u
+282.9780 	EXP 	text_2: autoDraw = False
+282.9780 	EXP 	fx_cross: autoDraw = True
+283.9805 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_31.wav
+283.9807 	EXP 	Sound sound_1 started
+283.9936 	EXP 	fx_cross: autoDraw = False
+286.9801 	EXP 	text_2: autoDraw = True
+286.9803 	EXP 	Sound sound_1 stopped
+290.5153 	EXP 	Sound sound_1 stopped
+290.5177 	EXP 	New trial (rep=0, index=31): {'szo': 'réfjenólpáulatamú', 'hangfajl': 'alszo_32'}
+290.5218 	DATA 	Keypress: u
+290.5328 	EXP 	text_2: autoDraw = False
+290.5328 	EXP 	fx_cross: autoDraw = True
+291.5452 	EXP 	Set sound_1 sound=stimuli/hangfajlok/alszo_32.wav
+291.5454 	EXP 	Sound sound_1 started
+291.5580 	EXP 	fx_cross: autoDraw = False
+294.5310 	EXP 	text_2: autoDraw = True
+294.5489 	EXP 	Sound sound_1 stopped
+299.7818 	DATA 	Keypress: escape
+299.9113 	EXP 	window1: mouseVisible = True
